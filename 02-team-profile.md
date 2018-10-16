@@ -5,7 +5,7 @@
 - 项目经理: alexfanjn
 - 前端团队: e21407 
 - 后台团队: e21407
-- 测试人员：Simplelh96
+- 测试人员: Simplelh96
 
 
 
