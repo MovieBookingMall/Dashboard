@@ -88,6 +88,11 @@
 
 - 顾客选定座位提交后，由于页面更新的延迟，导致所选座位已被他人锁定，顾客需另外选择座位
 
+**用例图**:
+![img](https://github.com/YeungLy/Test/blob/master/%E9%9D%9E%E6%AD%A3%E5%BC%8F%E7%94%A8%E4%BE%8B%E5%9B%BE.png?raw=true)
+
+**活动图**:
+![img](https://github.com/YeungLy/Test/blob/master/%E6%B4%BB%E5%8A%A8%E5%9B%BE.png?raw=true)
 
 ## 简述用例
 
