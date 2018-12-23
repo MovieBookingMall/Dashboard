@@ -14,7 +14,7 @@
 
 #### 1. 搜索电影
 
-[!image](https://github.com/YeungLy/Test/blob/master/%E5%BA%8F%E5%88%97%E5%9B%BE1.png?raw=true)
+[image](https://github.com/YeungLy/Test/blob/master/%E5%BA%8F%E5%88%97%E5%9B%BE1.png?raw=true)
 
 #### 2. 浏览电影详细信息
 
