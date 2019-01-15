@@ -10,8 +10,7 @@
 也要避免采用。
 正例：alibaba / taobao / youku / hangzhou 等国际通用的名称，可视同英文。
 反例：DaZhePromotion [打折] / getPingfenByName() [评分] / int 某变量 = 3
-#### 3. 【强制】类名使用 UpperCamelCase 风格，必须遵从驼峰形式，但以下情形例外：DO / BO /
-DTO / VO / AO
+#### 3. 【强制】类名使用 UpperCamelCase 风格，必须遵从驼峰形式，但以下情形例外：DO / BO / DTO / VO / AO
 正例：MarcoPolo / UserDO / XmlService / TcpUdpDeal / TaPromotion
 反例：macroPolo / UserDo / XMLService / TCPUDPDeal / TAPromotion
 #### 4. 【强制】方法名、参数名、成员变量、局部变量都统一使用 lowerCamelCase 风格，必须遵从
@@ -20,22 +19,18 @@ DTO / VO / AO
 #### 5. 【强制】常量命名全部大写，单词间用下划线隔开，力求语义表达完整清楚，不要嫌名字长。
 正例：MAX_STOCK_COUNT
 反例：MAX_COUNT
-#### 6. 【强制】抽象类命名使用 Abstract 或 Base 开头；异常类命名使用 Exception 结尾；测试类
-命名以它要测试的类的名称开始，以 Test 结尾。
+#### 6. 【强制】抽象类命名使用 Abstract 或 Base 开头；异常类命名使用 Exception 结尾；测试类命名以它要测试的类的名称开始，以 Test 结尾。
 #### 7. 【强制】中括号是数组类型的一部分，数组定义如下：String[] args;
 反例：使用 String args[]的方式来定义。
 #### 8. 【强制】POJO 类中布尔类型的变量，都不要加 is，否则部分框架解析会引起序列化错误。
 反例：定义为基本数据类型 Boolean isDeleted；的属性，它的方法也是 isDeleted()，RPC框架在反向解析的时候，“以为”对应的属性名称是 deleted，导致属性获取不到，进而抛出异
 常。
-#### 9. 【强制】包名统一使用小写，点分隔符之间有且仅有一个自然语义的英语单词。包名统一使用
-单数形式，但是类名如果有复数含义，类名可以使用复数形式。
-正例： 应用工具类包名为 com.alibaba.open.util、类名为 MessageUtils（此规则参考
-spring 的框架结构）
+#### 9. 【强制】包名统一使用小写，点分隔符之间有且仅有一个自然语义的英语单词。包名统一使用单数形式，但是类名如果有复数含义，类名可以使用复数形式。
+正例： 应用工具类包名为 com.alibaba.open.util、类名为 MessageUtils（此规则参考spring 的框架结构）
 #### 10. 【强制】杜绝完全不规范的缩写，避免望文不知义。
 反例：AbstractClass“缩写”命名成 AbsClass；condition“缩写”命名成 condi，此类随
 意缩写严重降低了代码的可阅读性。
-#### 11. 【推荐】为了达到代码自解释的目标，任何自定义编程元素在命名时，使用尽量完整的单词
-组合来表达其意。
+#### 11. 【推荐】为了达到代码自解释的目标，任何自定义编程元素在命名时，使用尽量完整的单词组合来表达其意。
 正例：从远程仓库拉取代码的类命名为 PullCodeFromRemoteRepository。
 反例：变量 int a; 的随意命名方式。
 #### 12. 【推荐】如果模块、接口、类、方法使用了设计模式，在命名时体现出具体模式。
@@ -43,17 +38,13 @@ spring 的框架结构）
 正例：public class OrderFactory;
 public class LoginProxy;
 public class ResourceObserver;
-#### 13. 【推荐】接口类中的方法和属性不要加任何修饰符号（public 也不要加），保持代码的简洁
-性，并加上有效的 Javadoc 注释。尽量不要在接口里定义变量，如果一定要定义变量，肯定是
-与接口方法相关，并且是整个应用的基础常量。
+#### 13. 【推荐】接口类中的方法和属性不要加任何修饰符号（public 也不要加），保持代码的简洁性，并加上有效的 Javadoc 注释。尽量不要在接口里定义变量，如果一定要定义变量，肯定是与接口方法相关，并且是整个应用的基础常量。
 正例：接口方法签名：void f();
  接口基础常量表示：String COMPANY = "alibaba";
 反例：接口方法定义：public abstract void f();
-说明：JDK8 中接口允许有默认实现，那么这个 default 方法，是对所有实现类都有价值的默
-认实现。
+说明：JDK8 中接口允许有默认实现，那么这个 default 方法，是对所有实现类都有价值的默认实现。
 #### 14. 接口和实现类的命名有两套规则：
-1）【强制】对于 Service 和 DAO 类，基于 SOA 的理念，暴露出来的服务一定是接口，内部
-的实现类用 Impl 的后缀与接口区别。
+1）【强制】对于 Service 和 DAO 类，基于 SOA 的理念，暴露出来的服务一定是接口，内部的实现类用 Impl 的后缀与接口区别。
 正例：CacheServiceImpl 实现 CacheService 接口。
 2）【推荐】如果是形容能力的接口名称，取对应的形容词做接口名（通常是–able 的形式）。
 正例：AbstractTranslator 实现 Translatable。
@@ -76,16 +67,13 @@ public class ResourceObserver;
 
 ### (二)常量定义 
 #### 1. 【强制】不允许任何魔法值（即未经定义的常量）直接出现在代码中。
-反例：String key = "Id#taobao_" + tradeId;
- cache.put(key, value);
-#### 2. 【强制】long 或者 Long 初始赋值时，使用大写的 L，不能是小写的 l，小写容易跟数字 1 混
-淆，造成误解。
+反例：String key = "Id#taobao_" + tradeId;cache.put(key, value);
+#### 2. 【强制】long 或者 Long 初始赋值时，使用大写的 L，不能是小写的 l，小写容易跟数字 1 混淆，造成误解。
 说明：Long a = 2l; 写的是数字的 21，还是 Long 型的 2?
 #### 3. 【推荐】不要使用一个常量类维护所有常量，按常量功能进行归类，分开维护。
 说明：大而全的常量类，非得使用查找功能才能定位到修改的常量，不利于理解和维护。
 正例：缓存相关常量放在类 CacheConsts 下；系统配置相关常量放在类 ConfigConsts 下。
-#### 4. 【推荐】常量的复用层次有五层：跨应用共享常量、应用内共享常量、子工程内共享常量、包
-内共享常量、类内共享常量。
+#### 4. 【推荐】常量的复用层次有五层：跨应用共享常量、应用内共享常量、子工程内共享常量、包内共享常量、类内共享常量。
 ##### 1） 跨应用共享常量：放置在二方库中，通常是 client.jar 中的 constant 目录下。
 ##### 2） 应用内共享常量：放置在一方库中，通常是 modules 中的 constant 目录下。
 反例：易懂变量也要统一定义成应用内共享常量，两位攻城师在两个类中分别定义了表示
@@ -97,12 +85,10 @@ A.YES.equals(B.YES)，预期是 true，但实际返回为 false，导致线上�
 ##### 4） 包内共享常量：即在当前包下单独的 constant 目录下。
 ##### 5） 类内共享常量：直接在类内部 private static final 定义。
 #### 5. 【推荐】如果变量值仅在一个范围内变化，且带有名称之外的延伸属性，定义为枚举类。下面正例中的数字就是延伸信息，表示星期几。
-正例：public Enum { MONDAY(1), TUESDAY(2), WEDNESDAY(3), THURSDAY(4), FRIDAY(5), SATURDAY(6),
-SUNDAY(7);}
+正例：public Enum { MONDAY(1), TUESDAY(2), WEDNESDAY(3), THURSDAY(4), FRIDAY(5), SATURDAY(6),SUNDAY(7);}
 
 ### (三)代码格式 
-#### 1. 【强制】大括号的使用约定。如果是大括号内为空，则简洁地写成{}即可，不需要换行；如果
-是非空代码块则：
+#### 1. 【强制】大括号的使用约定。如果是大括号内为空，则简洁地写成{}即可，不需要换行；如果是非空代码块则：
 ##### 1） 左大括号前不换行。
 ##### 2） 左大括号后换行。
 ##### 3） 右大括号前换行。
@@ -140,8 +126,7 @@ SUNDAY(7);}
 #### 8. 【强制】方法参数在定义和传入时，多个参数逗号后边必须加空格。
 正例：下例中实参的"a",后边必须要有一个空格。
 method("a", "b", "c");
-#### 9. 【强制】IDE 的 text file encoding 设置为 UTF-8; IDE 中文件的换行符使用 Unix 格式，
-不要使用 Windows 格式。
+#### 9. 【强制】IDE 的 text file encoding 设置为 UTF-8; IDE 中文件的换行符使用 Unix 格式，不要使用 Windows 格式。
 #### 10. 【推荐】没有必要增加若干空格来使某一行的字符与上一行对应位置的字符对齐。
 正例：
   int a = 3;
