@@ -6,7 +6,7 @@
 - 前端团队: e21407,alexfanjn,YeungLy
 - 后台团队: e21407,alexfanjn
 - 测试人员: Simplelh96, YeungLy
-- 文档撰写：Simplelh96
+- 文档撰写：Simplelh96, YeungLy
 
 
 
