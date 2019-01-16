@@ -2,10 +2,11 @@
 
 目前，在系统分析与设计课程中，票多多有 4 位成员，4 个部分
 
-- 项目经理: alexfanjn
-- 前端团队: e21407 
-- 后台团队: e21407
+- 项目经理: e21407
+- 前端团队: e21407,alexfanjn,YeungLy
+- 后台团队: e21407,alexfanjn
 - 测试人员: Simplelh96, YeungLy
+- 文档撰写：Simplelh96
 
 
 
