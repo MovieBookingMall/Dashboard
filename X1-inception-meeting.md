@@ -21,4 +21,4 @@
 
 
 
-![image](http://github.com/alexfanjn/MovieBookingMall/Dashboard/images/X1-1.png)
+![image](https://github.com/MovieBookingMall/Dashboard/blob/master/images/X1-1.png?raw=true)
