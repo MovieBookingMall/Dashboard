@@ -51,6 +51,7 @@
 
 ![contributor_img](https://github.com/YeungLy/Test/blob/master/contributor.png?raw=true)
 
+可以看到我在项目的各个阶段都有贡献一定的工作量
 
 ## 工作清单
 
@@ -64,7 +65,10 @@
 ## 博客清单
 
 [1. Vue.js 2.0 入门教程（一） 搭建开发环境](https://blog.csdn.net/DosMing/article/details/76422948)
-[2. UMLet完整教程]: https://www.awaimai.com/1448.html
-[3. Java Web开发教程——基本思路]: https://zhuanlan.zhihu.com/p/20756940?from_voters_page=true
-[4. UML领域模型和类图]: https://blog.csdn.net/chz_cslg/article/details/23957235
+
+[2. UMLet完整教程](https://www.awaimai.com/1448.html)
+
+[3. Java Web开发教程——基本思路](https://zhuanlan.zhihu.com/p/20756940?from_voters_page=true)
+
+[4. UML领域模型和类图](https://blog.csdn.net/chz_cslg/article/details/23957235)
 
