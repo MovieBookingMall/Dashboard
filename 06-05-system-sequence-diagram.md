@@ -6,7 +6,6 @@
 2. 浏览电影详细信息
 3. 选择影片及场次座位，提交订单
 4. 支付订单
-5. 发布影评
 
 
 
@@ -30,5 +29,4 @@
 ![paymentImg](https://github.com/YeungLy/Test/blob/master/%E5%BA%8F%E5%88%97%E5%9B%BE3.png?raw=true)
 
 
-#### 5.发布影评 
 
