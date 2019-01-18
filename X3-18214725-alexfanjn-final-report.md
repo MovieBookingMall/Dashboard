@@ -47,24 +47,23 @@
 
 - 18214647-Simplelh96-林晖
 
-### PSP2.1表格
-|PSP2.1|Personal Software Process Stages|Time（%）|
-|-|-|-|
-|**Planning**|**计划**|**10**
-|estimate|预估任务时间|10
-|**Development**|**开发**|**80**
-|analysis|需求分析|10
-|design spec|生成设计文档|5
-|estimate|设计复审（与前端团队成员审核设计文档|5
-|coding standard|代码规范|2
-|design|具体设计，包括绘制 UI，设计架构等|10
-|coding|具体编码|30
-|code review|代码复审|5
-|test|测试（修改代码）|13
-|**Report**|**报告**|**10**
-|test report|测试报告|1
-|size measurement|计算工作量|1
-|postmortem & process improvement plan|每次迭代结束后写总结文档，并提出改进计划|8
+| PSP2.1                                | Personal Software Process              | Time(%) |
+| ------------------------------------- | -------------------------------------- | ------- |
+| **Planning**                          | **计划**                               | 10      |
+| estimate                              | 估计任务完成所需时间                   | 10      |
+| **Development**                       | **开发**                               | 60      |
+| analysis                              | 需求分析                               | 10      |
+| design spec                           | 生成设计文档                           | 5      |
+| design review                         | 设计复审                               | 5      |
+| coding standard                       | 代码规范                               | 2       |
+| design                                | 具体设计                               | 10       |
+| coding                                | 具体编码                               | 30       |
+| code review                           | 代码复审                               | 5       |
+| test                                  | 测试(修改代码)                         | 13       |
+| **Report**                            | **报告**                               | 10      |
+| test report                           | 测试报告                               | 1      |
+| size measurement                      | 计算工作量                             | 1       |
+| postmortem & process improvement plan | 每次迭代结束后写总结文档，提出改进计划 | 8       |
 
 
 
