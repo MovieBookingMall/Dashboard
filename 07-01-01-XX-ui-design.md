@@ -62,7 +62,7 @@ UI Design
 
 >   具体介绍：用户可以在任意界面选择登陆，若选座完成后，用户仍未登陆，则系统会在其点击“确认选座”按钮时跳转至登陆界面
 
-![](https://github.com/MovieBookingMall/Dashboard/blob/master/images/01-login.png)
+![](https://github.com/MovieBookingMall/Dashboard/blob/master/images/login.png)
 
 （二）组件设计思路
 ------------------
