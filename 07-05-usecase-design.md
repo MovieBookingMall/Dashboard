@@ -8,18 +8,18 @@ User
 
 Class
 
-![]( https://github.com/MovieBookingMall/Dashboard/blob/master/images/05-2.jpg)
+![]( https://github.com/MovieBookingMall/Dashboard/blob/master/images/05-2.jpg?raw=true)
 
 Order
 
-![]( https://github.com/MovieBookingMall/Dashboard/blob/master/images/05-3.jpg)
+![]( https://github.com/MovieBookingMall/Dashboard/blob/master/images/05-3.jpg?raw=true)
 
 Cinema
 
 class
 
-![]( https://github.com/MovieBookingMall/Dashboard/blob/master/images/05-4.jpg)
+![]( https://github.com/MovieBookingMall/Dashboard/blob/master/images/05-4.jpg?raw=true)
 
 sequence
 
-![]( https://github.com/MovieBookingMall/Dashboard/blob/master/images/05-5.jpg)
+![]( https://github.com/MovieBookingMall/Dashboard/blob/master/images/05-5.jpg?raw=true)
