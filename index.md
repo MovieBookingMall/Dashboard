@@ -31,7 +31,7 @@ layout: default
     - 8.1 [代码规范](08-01-coding-standard)
     - 8.2 [REST API设计规范](08-02-RESTful-api-design-standard)
 * X1 meet_recording
-    - [Inception meeting (2018/03/23)](X1-inception-meeting)
+    - [Inception meeting (2018/03/23)](X1-iteration-meeting)
     - [Iteration 1 meeting (2018/04/09)](X1-iteration1-meeting)
     - [Iteration 2 meeting (2018/05/09)](X1-iteration2-meeting)
     - [Iteration 3 meeting (2018/06/30)](X1-iteration3-meeting)
