@@ -47,8 +47,8 @@ Software Architecture Document
 
 逻辑视图
 
-![]( https://github.com/MovieBookingMall/Dashboard/blob/master/images/04-1.jpg)
+![]( https://github.com/MovieBookingMall/Dashboard/blob/master/images/04-1.jpg?raw=true)
 
 物理视图
 
-![]( https://github.com/MovieBookingMall/Dashboard/blob/master/images/04-2.jpg)
+![]( https://github.com/MovieBookingMall/Dashboard/blob/master/images/04-2.jpg?raw=true)
