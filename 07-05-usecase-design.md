@@ -2,7 +2,7 @@
 
 Usecase
 
-![]( https://github.com/MovieBookingMall/Dashboard/blob/master/images/05-1.jpg)
+![]( https://github.com/MovieBookingMall/Dashboard/blob/master/images/05-1.jpg?raw=true)
 
 User
 
