@@ -5,7 +5,7 @@ Dataset of TicketPlus
 --------
 
 ![](
-https://github.com/MovieBookingMall/Dashboard/blob/master/images/02-01-1.jpg)
+https://github.com/MovieBookingMall/Dashboard/blob/master/images/02-01-1.jpg?raw=true)
 
 2 关系模型
 ----------
