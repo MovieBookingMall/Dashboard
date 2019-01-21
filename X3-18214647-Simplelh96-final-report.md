@@ -49,4 +49,4 @@ PSP2.1表格
 **Dashboard文档**
 
 ![](
-https://github.com/MovieBookingMall/Dashboard/blob/master/images/Simplelh96_workload_DashBoard.png)
+https://github.com/MovieBookingMall/Dashboard/blob/master/images/Simplelh96_workload_DashBoard.png?raw=true)
